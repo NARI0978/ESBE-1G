@@ -11,5 +11,5 @@
 	
 <body>
 	<p>Photo<p>
-	<img src="https://github.com/NARI0978/ESBE-1G/blob/master/sitesetting/IMG_5741.PNG" width="1000" height="828">
+	<img src="https://github.com/NARI0978/ESBE-1G/blob/master/sitesetting/IMG_5741.PNG" width="1000" height="700">
 </html>
