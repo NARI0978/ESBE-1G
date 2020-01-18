@@ -2,7 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+
+<meta name="viewport"
+   content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
 	<img src="https://github.com/NARI0978/ESBE-1G/blob/master/16/ESBE%201Gv16.0/pack_icon.png" width="300" height="330">
 </head>
 <body>
