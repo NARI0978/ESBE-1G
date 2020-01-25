@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>ホーム</title>
+		<style>
+			/*cssは重複する設定があると上書きされていく*/
+			body{
+				/*ここはページ全体に適応される*/
+				background-color: #222;/*背景色rgb=2,2,2*/
+				color: #fff;/*文字色*/
+				font-family: menlo;/*個人的に好きなプログラムが見やいフォント*/
+				margin: 0;/*外の隙間無くす*/
+				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
+			}
+			div{/*div全てに適用*/
+				margin:0;/*隙間無くす*/
+				overflow: hidden;
+			}
+			div.title{/*divかつtitleクラスを持つ要素に適用される*/
+				text-align: center;/*中央揃え*/
+				font-size: 64px;
+				color: #4f4;
+				background-image:url("test.png");
+				background-size: cover;/*サイズ揃えるやつ*/
+				background-position: center;
+			}
+			.zabton{/*zabtonクラスを持つ要素に適用*/
+				background-color: #444;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="title">
+			HOME
+		</div>
+		<p style="text-align:center;margin:0;">これはテストです</p>
+		<div class="zabton">
+			<p>
+				背景色敷くと読みやすい <br>
+				こんな感じでつらつら書いていくよ
+			</p>
+		</div>
+		<div>
+			<p>
+				段落管理みたいにdiv使うのお勧め <br>
+				index.htmlはリンクでファイル指定されていない時に <br>
+				ブラウザがフォルダの中で真っ先に検索するファイル <br>
+				一つのフォルダにつき一つindex.htmlって名前のページ作ると良い
+			</p>
+			<img src="test.png" style="width:100px;/*サイズ調整とか*/">
+		</div>
+		<div class="zabton">
+			リンクは<a href="test.html">a要素</a>使うと作れる
+		</div>
+	</body>
+</html>
