@@ -1,0 +1,17 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "The shader you wanted.\n Supported by @McbeEringi , \nMade by NARI",
+		"name": "ESBE shader v17.0",
+		"uuid": "2bf326a6-3a68-49a0-8f3d-c9ad1c0a379d",
+		"version": [0, 17, 0],
+		"min_engine_version": [1, 8, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "126b3ce8-b522-4081-9079-f96d93ba5c47",
+			"version": [0, 17, 0]
+		}
+	]
+}
