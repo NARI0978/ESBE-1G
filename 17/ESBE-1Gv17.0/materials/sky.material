@@ -1,0 +1,6 @@
+{
+"sun_moon":{"vertexShader":"shaders/lens_flare.vertex",
+"fragmentShader": "shaders/lens_flare.fragment"
+},
+"skyplane": {"fragmentShader": "shaders/sky.fsh"}
+}
