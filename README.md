@@ -6,5 +6,8 @@
 [instagram](https://www.instagram.com/channel_nari)<br>
 [YouTube](https://www.youtube.com/channel/UCr0-2qXUZqqx2xKezrgwdbw?view_as=subscriber)
 ### Photo
-![ph1](https://github.com/NARI0978/ESBE-1G/blob/master/sitesetting/IMG_5742.PNG)
+![ph1](https://github.com/NARI0978/nari.github.io/blob/master/jikosyokai/cc.PNG)
+![ph2](https://github.com/NARI0978/nari.github.io/blob/master/1g/aa.PNG)
+![ph2](https://github.com/NARI0978/nari.github.io/blob/master/sozai/S__239788035.jpg)
+提供：まふゆ氏
 
