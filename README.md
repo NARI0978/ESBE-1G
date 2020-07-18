@@ -1,13 +1,12 @@
 # ESBE-1G
 ### Minecraft BE Shader (Android,iOS)
-![icon](https://github.com/NARI0978/nari.github.io/blob/master/jikosyokai/1g_logo.jpg)
+![icon](https://github.com/NARI0978/ESBE-1G/blob/master/ESBE-1Gv17.0/pack_icon.png)
 ### SNS LINK
 [Twitter](https://twitter.com/channel_nari)<br>
 [instagram](https://www.instagram.com/channel_nari)<br>
 [YouTube](https://www.youtube.com/channel/UCr0-2qXUZqqx2xKezrgwdbw?view_as=subscriber)
 ### Photo
-![ph1](https://github.com/NARI0978/nari.github.io/blob/master/jikosyokai/cc.PNG)
-![ph2](https://github.com/NARI0978/nari.github.io/blob/master/1g/aa.PNG)
-![ph2](https://github.com/NARI0978/nari.github.io/blob/master/sozai/S__239788035.jpg)
-提供：まふゆ氏
+![ph1](https://github.com/NARI0978/nari0978.github.io/blob/master/photo/1g/sl1.jpg)
+![ph2](https://github.com/NARI0978/nari0978.github.io/blob/master/photo/1g/sl5.jpg)
+![ph2](https://github.com/NARI0978/nari0978.github.io/blob/master/photo/1g/sl4.jpg)
 
