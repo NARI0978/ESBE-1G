@@ -1,4 +1,5 @@
 # ESBE-1G
+# NOT SUPPORT Minecraft BE v1.16+
 ### Minecraft BE Shader (Android,iOS)
 ![icon](https://github.com/NARI0978/ESBE-1G/blob/master/ESBE-1Gv17.0/pack_icon.png)
 ### SNS LINK
