@@ -35,6 +35,7 @@ varying float wf;
 #include "uniformShaderConstants.h"
 #include "uniformRenderChunkConstants.h"
 #include "ESBEutil.h"
+uniform highp float TOTAL_REAL_WORLD_TIME;
 
 attribute POS4 POSITION;
 attribute vec4 COLOR;
@@ -56,7 +57,7 @@ highp float hash11(highp float p){
 
 highp float random(highp float p){
 	#ifdef WIND
-		p = p/3.0+TIME;
+		p = p/3.0+TOTAL_REAL_WORLD_TIME;
 		return mix(hash11(floor(p)),hash11(ceil(p)),smoothstep(0.0,1.0,fract(p)))*2.0;
 	#else
 		return 1.0;
@@ -102,12 +103,11 @@ void main()
 #endif
 
 ///// waves
-highp float hTime = TIME;
 #if defined ALPHA_TEST && defined(LEAVES_WAVES)
 	if(color.g != color.b && color.r < color.g+color.b){
 		POS3 l = POSITION.xyz;
 		l.y = abs(l.y-8.0);
-		gl_Position.s += sin(hTime * 3.5 + 2.0 * l.x + 2.0 * l.z + l.y) * 0.015 * random(l.x+l.y+l.z);
+		gl_Position.s += sin(TOTAL_REAL_WORLD_TIME * 3.5 + 2.0 * l.x + 2.0 * l.z + l.y) * 0.015 * random(l.x+l.y+l.z);
 	}
 #endif
 
@@ -115,7 +115,7 @@ highp float hTime = TIME;
 	if(color.a < 0.95 && color.a > 0.05 && color.g > color.r){
 		#ifdef WATER_WAVES
 			POS3 l = worldPos.xyz + VIEW_POS;
-			gl_Position.t += sin(hTime * 3.5 + 2.0 * l.x + 2.0 * l.z + l.y) * 0.06 * fract(POSITION.y) * random(l.x+l.y+l.z);
+			gl_Position.t += sin(TOTAL_REAL_WORLD_TIME * 3.5 + 2.0 * l.x + 2.0 * l.z + l.y) * 0.06 * fract(POSITION.y) * random(l.x+l.y+l.z);
 		#endif
 		color.a *= 0.5;
 		wf = 1.;
